@@ -1,8 +1,15 @@
 import Image from "next/image";
-import Tst from "@/app/components/tst"
+import Nav from "@/app/components/nav"
+import Hero from "@/app/components/hero"
+import Footer from '@/app/components/footer'
 
 export default function Home() {
   return (
-      <Tst />
+    <main>
+      <Nav />
+      <Hero  />
+      <Footer />
+    </main>
+      
   );
 }
